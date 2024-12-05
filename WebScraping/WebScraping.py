@@ -3,12 +3,12 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.options import Options
 import time
 import pandas as pd
 
-df = pd.read_csv("list1.csv")
+df = pd.read_csv("list6.csv")
 authors = df["0"].tolist() 
-authors = ["SUSAN WALKER", "NEIL MYLER"]
 # Initialzie WebDriver
 service = Service('./chromedriver')
 driver = webdriver.Chrome(service=service)
@@ -105,5 +105,5 @@ driver.quit()
 
 # Save as csv
 df = pd.DataFrame(results)
-df.to_csv("./author_search_results.csv", index=False)
-print(" Result in author_search_results.csv'")
+df.to_csv("./author_search_results6.csv", index=False)
+print(" Result in author_search_results4.csv'")
