@@ -1,5 +1,5 @@
 install:
-	pip install -r requirements.txt
+	cd .. && pip install -r webpage/requirements.txt
 
 run:
-	python app.py
+	cd .. && python webpage/app.py

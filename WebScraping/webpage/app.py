@@ -1,12 +1,16 @@
 from flask import Flask, request, render_template,send_file
 import pandas as pd
 from io import BytesIO
+import os
 
 
 app = Flask(__name__)
 
 # Load the dataset
-data = pd.read_csv('gs_result_notcomplete.csv')
+csv_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "model_prediction", "gs_result.csv")
+
+# Load the data
+data = pd.read_csv(csv_path)
 data = data[['uid','Author','Title','Abstract','dep','Year']]
 @app.route('/', methods=['GET', 'POST'])
 def index():
