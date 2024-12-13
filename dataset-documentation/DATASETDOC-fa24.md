@@ -1,30 +1,33 @@
 ***Project Information*** 
 
-* What is the project name?  
-* What is the link to your project’s GitHub repository?   
-* What is the link to your project’s Google Drive folder? \*\**This should be a Spark\! Owned Google Drive folder \- please contact your PM if you do not have access\*\**  
-* In your own words, what is this project about? What is the goal of this project?   
-* Who is the client for the project?  
-* Who are the client contacts for the project?  
-* What class was this project part of?
+* What is the project name? bu-sustainability-STARS 
+* What is the link to your project’s GitHub repository?  https://github.com/BU-Spark/ds-bu-sustainability-stars/tree/Algorithm
+* What is the link to your project’s Google Drive folder? https://drive.google.com/drive/folders/12zry512LiiJr2xk1kGLGpKbebGZ4BGLk
+* In your own words, what is this project about? What is the goal of this project?  create database contain sustainability-related papers published by BU faculties
+* Who is the client for the project? Gabrielle Brewer
+* What class was this project part of? DS539
 
 ***Dataset Information***
 
-* What data sets did you use in your project? Please provide a link to the data sets, this could be a link to a folder in your GitHub Repo, Spark\! owned Google Drive Folder for this project, or a path on the SCC, etc.  
-* Please provide a link to any data dictionaries for the datasets in this project. If one does not exist, please create a data dictionary for the datasets used in this project. **(Example of data dictionary)**   
+* What data sets did you use in your project? Please provide a link to the data sets \
+  https://drive.google.com/drive/folders/1qKNaIMl3NU4J8TpbZj2saFbwAD60V1Lj \
+* Please provide a link to any data dictionaries for the datasets in this project. If one does not exist, please create a data dictionary for the datasets used in this project. **https://drive.google.com/drive/folders/1qKNaIMl3NU4J8TpbZj2saFbwAD60V1Lj**   
 * What keywords or tags would you attach to the data set?  
-  * Domain(s) of Application: Computer Vision, Object Detection, OCR, Image Classification, Image Segmentation, Facial Recognition, NLP, Topic Modeling, Sentiment Analysis, Named Entity Recognition, Text Classification, Summarization, Anomaly Detection, Other   
-  * Sustainability, Health, Civic Tech, Voting, Housing, Policing, Budget, Education, Transportation, etc. 
+  * Domain(s) of Application: 
+  * Sustainability, papers
 
 *The following questions pertain to the datasets you used in your project.*   
 *Motivation* 
 
-* For what purpose was the dataset created? Was there a specific task in mind? Was there a specific gap that needed to be filled? Please provide a description. 
+* For what purpose was the dataset created? Was there a specific task in mind? Was there a specific gap that needed to be filled? Please provide a description. \
+the dataset is create by finding the best way to gathering all the papers writen by BU faculties, so we use the openBU and google Scholar
 
 *Composition*
 
-* What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)? Are there multiple types of instances (e.g., movies, users, and ratings; people and interactions between them; nodes and edges)? What is the format of the instances (e.g., image data, text data, tabular data, audio data, video data, time series, graph data, geospatial data, multimodal (please specify), etc.)? Please provide a description.   
-* How many instances are there in total (of each type, if appropriate)?  
+* What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)? Are there multiple types of instances (e.g., movies, users, and ratings; people and interactions between them; nodes and edges)? What is the format of the instances (e.g., image data, text data, tabular data, audio data, video data, time series, graph data, geospatial data, multimodal (please specify), etc.)? Please provide a description. \
+  each row is a paper, contain tile, abstract, nad author
+* How many instances are there in total (of each type, if appropriate)?
+  approxia
 * Does the dataset contain all possible instances or is it a sample (not necessarily random) of instances from a larger set? If the dataset is a sample, then what is the larger set? Is the sample representative of the larger set? If so, please describe how this representativeness was validated/verified. If it is not representative of the larger set, please describe why not (e.g., to cover a more diverse range of instances, because instances were withheld or unavailable).  
 * What data does each instance consist of? “Raw” data (e.g., unprocessed text or images) or features? In either case, please provide a description.   
 * Is there any information missing from individual instances? If so, please provide a description, explaining why this information is missing (e.g., because it was unavailable). This does not include intentionally removed information, but might include redacted text.   
