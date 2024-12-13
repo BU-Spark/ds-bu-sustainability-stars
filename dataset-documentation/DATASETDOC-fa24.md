@@ -75,7 +75,7 @@ the dataset is create by finding the best way to gathering all the papers writen
 
 *Distribution*
 
-* Based on discussions with the client, what access type should this dataset be given (eg., Internal (Restricted), External Open Access, Other)? **unsure, but data is all open sources, no any sensitive infomation**
+* Based on discussions with the client, what access type should this dataset be given (eg., Internal (Restricted), External Open Access, Other)? **External Open Access**
 
 *Maintenance* 
 
