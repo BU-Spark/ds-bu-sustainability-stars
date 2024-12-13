@@ -14,3 +14,5 @@ Setting up and using the Paper Algorithm and Web Scraper.
 Methodology and key processes behind each tool.
 Limitations and blockers encountered during development.
 Suggestions for future teams to build upon the current work.
+
+### refer to each folder for usage of code
