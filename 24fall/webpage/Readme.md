@@ -3,9 +3,9 @@
 make sure the data file are in the correct location(in the "model_prediction" folder)
 
 ### run the webpage:
-use \
--make install
--make run
+use\
+-make install\
+-make run\
 to run the webpage and open locally.
 
 ## webpage:
