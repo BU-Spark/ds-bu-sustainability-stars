@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Search Works</h1>
+        <form method="POST" class="mb-4">
+            <div class="form-group">
+                <label for="author">Author:</label>
+                <input type="text" class="form-control" id="author" name="author" placeholder="Enter author name">
+            </div>
+            <div class="form-group">
+                <label for="dep">Department:</label>
+                <input type="text" class="form-control" id="dep" name="dep" placeholder="Enter department">
+            </div>
+            <div class="form-group">
+                <label for="Year">Year:</label>
+                <input type="number" class="form-control" id="Year" name="Year" placeholder="Enter Year">
+            </div>
+            <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+
+        <form method="POST" action="/download">
+            <input type="hidden" name="author" value="{{ request.form.get('author', '') }}">
+            <input type="hidden" name="dep" value="{{ request.form.get('dep', '') }}">
+            <input type="hidden" name="Year" value="{{ request.form.get('Year', '') }}">
+            <button type="submit" class="btn btn-success">Download Filtered Data</button>
+        </form>
+        <h2 class="mb-4">Results:</h2>
+        {{ table|safe }}
+    </div>
+</body>
+</html>
